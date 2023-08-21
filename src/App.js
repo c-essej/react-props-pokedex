@@ -1,4 +1,4 @@
-import Pokedex from './Pokedex'
+import Pokegame from './Pokegame'
 function App() {
 
   const POKEMON = [
@@ -13,7 +13,7 @@ function App() {
   ];
   return (
     <div className="App">
-      <Pokedex pokemon={ POKEMON } />
+      <Pokegame pokemon={ POKEMON } />
     </div>
   );
 }
